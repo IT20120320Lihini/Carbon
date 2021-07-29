@@ -19,6 +19,14 @@ body {
 }
 
 /* Navigation Bar */
+.header-social-media-container {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .header-social-media {
   padding: 0;
 }
@@ -29,12 +37,12 @@ body {
 
 .text-right {
   text-align: right;
+  max-width: none;
 }
 
 .header-social-media .list-inline {
   margin-bottom: 0;
   padding: 5px 0;
-  list-style: none;
 }
 
 .list-inline-item {
@@ -54,6 +62,7 @@ body {
   color: #ffffff;
   text-decoration: none;
   background-color: transparent;
+  padding: 0;
 }
 
 /* End Navigation Bar */
@@ -137,6 +146,7 @@ body {
 }
 
 .header-wrapper .header-nav-bat .search-container .search-box {
+  display: none;
 }
 
 .header-wrapper .header-nav-bat .search-container form.form-inline {
@@ -151,7 +161,7 @@ body {
   align-items: center;
 }
 
-.header-wrapper .header-nav-bat .search-container .search-input {
+.header-wrapper .header-nav-bat .search-container .search-input-primary {
   width: 100%;
   border: 2px solid white;
   background-color: #0078ff;
@@ -161,7 +171,7 @@ body {
   padding: 5px;
 }
 
-.header-wrapper .header-nav-bat .search-container .search-btn {
+.header-wrapper .header-nav-bat .search-container .search-button-primary {
   margin: 0;
   height: 26px;
   border: 1px solid white;
@@ -172,6 +182,17 @@ body {
   font-size: 18px;
   width: 100%;
   width: 32px;
+}
+
+.header-wrapper .sf-accordion-toggle.sf-style-black {
+  text-align: right;
+  padding: 0px 0;
+  color: white;
+  margin-top: -46px;
+}
+
+.header-wrapper .sf-accordion-toggle.sf-style-black i {
+  font-size: 30px;
 }
 /* End header section */
 
@@ -184,6 +205,48 @@ body {
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+  .header-wrapper a.navbar-brand-name img {
+    width: 160px;
+  }
+
+  .header-wrapper .header-nav-bat .navbar-contact-information {
+    margin-top: 20px;
+  }
+
+  .header-wrapper .header-nav-bat .navbar-contact-information i {
+    font-size: 20px;
+  }
+
+  .header-wrapper .header-nav-bat .navbar-contact-information span {
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 2px;
+  }
+
+  .country-menu-container {
+    direction: rtl;
+  }
+
+  .header-wrapper .header-nav-bat .search-container {
+    max-width: 100%;
+    text-align: right;
+    margin-top: -35px;
+  }
+
+  .header-wrapper .header-nav-bat .search-container div.search-box {
+    display: inline-block;
+    padding-left: 20px;
+  }
+
+  .header-wrapper .header-nav-bat .search-container form.form-inline {
+    display: flex;
+    margin-top: -40px;
+    width: 100%;
+  }
+
+  .header-wrapper .sf-accordion-toggle.sf-style-black {
+    display: none;
+  }
 }
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
