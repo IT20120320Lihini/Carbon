@@ -10,6 +10,248 @@ body {
   color: black;
 }
 
+.container {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Navigation Bar */
+.header-social-media-container {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-social-media {
+  padding: 0;
+}
+
+.left-blue-gradient {
+  background: linear-gradient(90deg, #0078ff 0%, white 37%, white 100%);
+}
+
+.text-right {
+  text-align: right;
+  max-width: none;
+}
+
+.header-social-media .list-inline {
+  margin-bottom: 0;
+  padding: 5px 0;
+}
+
+.list-inline-item {
+  margin-right: 0.5rem;
+}
+
+.header-social-media a i {
+  background-color: #0078ff;
+  font-size: 20px;
+  padding: 7px;
+  width: 36px;
+  text-align: center;
+  border-radius: 17px;
+}
+
+.header-social-media a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+/* End Navigation Bar */
+
+/*Small devices (landscape phones, 478px and up)*/
+@media (min-width: 478px) {
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/* Start header section */
+.header-wrapper {
+  background-image: url(images/hbg.png);
+  background-color: #0078ff;
+  background-size: cover;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  min-height: 101px;
+  text-transform: uppercase;
+  font-size: 11px;
+  background-repeat: no-repeat;
+}
+
+.header-wrapper a {
+  font-size: 11px;
+}
+
+.header-wrapper .header-nav-bat {
+  padding: 5px 0;
+}
+
+.header-wrapper a.navbar-brand-name {
+  margin: 0;
+}
+
+.header-wrapper a.navbar-brand-name img {
+  width: 146px;
+  margin-left: -10px;
+  padding: 5px 0;
+}
+
+.header-wrapper .header-nav-bat .navbar-contact-information {
+  float: right;
+  padding: 10px 0;
+  text-align: right;
+}
+
+.header-wrapper .header-nav-bat .navbar-contact-info a {
+  color: #ffffff;
+}
+
+.header-wrapper a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.header-wrapper .header-nav-bat .navbar-contact-information i {
+  font-size: 22px;
+  padding-left: 15px;
+}
+
+.header-wrapper .header-nav-bat .navbar-contact-information span {
+  display: none;
+  font-size: 14px;
+}
+
+.header-wrapper .header-nav-bat .search-container {
+  max-width: 85%;
+  padding: 5px 0;
+  clear: both;
+}
+
+.header-wrapper .header-nav-bat .search-container .search-box {
+  display: none;
+}
+
+.header-wrapper .header-nav-bat .search-container form.form-inline {
+  max-width: 200px;
+  margin-left: auto;
+  width: 60%;
+  flex-flow: unset;
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper .header-nav-bat .search-container .search-input-primary {
+  width: 100%;
+  border: 2px solid white;
+  background-color: #0078ff;
+  border-radius: 4px 0px 0px 4px;
+  height: 26px;
+  color: white;
+  padding: 5px;
+}
+
+.header-wrapper .header-nav-bat .search-container .search-button-primary {
+  margin: 0;
+  height: 26px;
+  border: 1px solid white;
+  border-radius: 0px 4px 4px 0;
+  padding: 1px 2px 5px 10px;
+  color: #0b4168;
+  background-color: white;
+  font-size: 18px;
+  width: 100%;
+  width: 32px;
+}
+
+.header-wrapper .sf-accordion-toggle.sf-style-black {
+  text-align: right;
+  padding: 0px 0;
+  color: white;
+  margin-top: -46px;
+}
+
+.header-wrapper .sf-accordion-toggle.sf-style-black i {
+  font-size: 30px;
+}
+/* End header section */
+
+/*Small devices (landscape phones, 478px and up)*/
+@media (min-width: 478px) {
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .header-wrapper a.navbar-brand-name img {
+    width: 160px;
+  }
+
+  .header-wrapper .header-nav-bat .navbar-contact-information {
+    margin-top: 20px;
+  }
+
+  .header-wrapper .header-nav-bat .navbar-contact-information i {
+    font-size: 20px;
+  }
+
+  .header-wrapper .header-nav-bat .navbar-contact-information span {
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 2px;
+  }
+
+  .country-menu-container {
+    direction: rtl;
+  }
+
+  .header-wrapper .header-nav-bat .search-container {
+    max-width: 100%;
+    text-align: right;
+    margin-top: -35px;
+  }
+
+  .header-wrapper .header-nav-bat .search-container div.search-box {
+    display: inline-block;
+    padding-left: 20px;
+  }
+
+  .header-wrapper .header-nav-bat .search-container form.form-inline {
+    display: flex;
+    margin-top: -40px;
+    width: 100%;
+  }
+
+  .header-wrapper .sf-accordion-toggle.sf-style-black {
+    display: none;
+  }
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
 /* Section information */
 .sec-paragraph {
   text-align: center;
@@ -22,14 +264,6 @@ body {
   background-position: center;
 }
 
-.container {
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .header-container {
   margin: auto;
   padding: 30px 0px 20px 0px;
@@ -37,7 +271,6 @@ body {
   font-weight: bold;
   color: #6f6f6f;
   text-transform: uppercase;
-  font-size: 40px;
 }
 
 .separate-line {
@@ -55,6 +288,22 @@ p {
 }
 
 /* End section information */
+
+/*Small devices (landscape phones, 478px and up)*/
+@media (min-width: 478px) {
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/* Start section category */
 section.sec-category {
   padding-left: 5%;
   padding-right: 5%;
@@ -101,8 +350,23 @@ section.sec-category {
 .sec-category .category-image-title h2 {
   font-size: 1.8rem;
 }
+/* End section category */
 
-/*One-thing-logo and pragrahp)*/
+/*Small devices (landscape phones, 478px and up)*/
+@media (min-width: 478px) {
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/*Strat One-thing-logo and pragrahp)*/
 .one-thing-section-paragraph {
   background: linear-gradient(360deg, #b9b9b9 0%, #e6e6e6 37%, white 100%);
   text-align: center;
@@ -136,6 +400,7 @@ section.sec-category {
   font-size: 17px;
   margin: auto;
 }
+/*End One-thing-logo and pragrahp)*/
 
 /*Small devices (landscape phones, 478px and up)*/
 @media (min-width: 478px) {
